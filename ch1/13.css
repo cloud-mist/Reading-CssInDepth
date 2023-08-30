@@ -1,0 +1,23 @@
+h1 {
+  color: #2f4f4f;
+  margin-bottom: 10px;
+}
+
+#main-nav {
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 0;
+}
+
+#main-nav li {
+  display: inline-block; /* 让列表元素水平排列*/
+}
+
+#main-nav a {
+  /* 给导航链接 加上类似按钮外观 */
+  color: white; /* 字的颜色 */
+  background-color: #13a4a4;
+  padding: 5px;
+  border-radius: 4px;
+  text-decoration: none;
+}

@@ -1,0 +1,26 @@
+h1 {
+  color: #2f4f4f;
+  margin-bottom: 10px;
+}
+
+#main-nav {
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 0;
+}
+
+#main-nav li {
+  display: inline-block; /* 让列表元素水平排列*/
+}
+
+#main-nav a {
+  color: white; /* 字的颜色 */
+  background-color: #13a4a4; /* 蓝绿色背景被采用，因为橘黄色的优先级低 */
+  padding: 5px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.featured {
+  background-color: orange;
+}

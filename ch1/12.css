@@ -1,0 +1,22 @@
+/* 标签选择器 */
+h1 {
+  font-family: serif;
+}
+
+/* ID选择器 */
+#page-title {
+  font-family: sans-serif;
+}
+
+/* 类选择器 */
+.title {
+  font-family: monospace;
+}
+
+/* 这里选择的是第二个 */
+
+/*  三个规则都是给标题设置字体，发生了冲突
+ *  层叠： 决定了如何解决冲突
+ *  三个条件： 样式表的来源，选择器优先级，源码顺序
+ *
+ */
